@@ -14,22 +14,27 @@ A modern, responsive, single-page website for a business consulting firm. Built 
 ## 📸 Screenshots
 
 ### Hero
-![Hero Section](./screenshots/screenshot1-hero.png)
+
+![screenshot1-hero](https://github.com/user-attachments/assets/aa1404ac-2b64-445f-9708-a7fe904e5b01)
+
 
 ### About
-![About Section](./screenshots/screenshot2-about.png)
+![screenshot2-about](https://github.com/user-attachments/assets/ed6955c1-f433-4911-9129-e1b332ead32e)
+
 
 ### Services
-![Services Section](./screenshots/screenshot3-services.png)
+![screenshot3-services](https://github.com/user-attachments/assets/1163cc6c-ca17-4dc6-8325-f475814586d8)
 
 ### Process
-![Process Section](./screenshots/screenshot4-process.png)
+![screenshot4-process](https://github.com/user-attachments/assets/050b27dd-d509-4329-a80d-4779749902f5)
+
 
 ### Clients & Testimonials
-![Clients Section](./screenshots/screenshot5-clients.png)
+![screenshot5-clients](https://github.com/user-attachments/assets/4b688b73-b690-4876-9c8b-e57fb40c59bb)
+
 
 ### Contact Form
-![Contact Section](./screenshots/screenshot6-contact.png)
+![screenshot6-contact](https://github.com/user-attachments/assets/3308b776-5f9f-4492-bf37-821d6b566e18)
 
 ---
 
