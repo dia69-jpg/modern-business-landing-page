@@ -3,7 +3,11 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Updated-blue)
+
+
 
 A modern, responsive, single-page website for a business consulting firm. Built with pure HTML, CSS, and vanilla JavaScript — no frameworks, no dependencies.
 
@@ -38,14 +42,33 @@ A modern, responsive, single-page website for a business consulting firm. Built 
 
 ---
 
-## ✨ Features
+## 🚀 Tech Stack
 
-- 📱 **Fully Responsive** — optimized for mobile, tablet, and desktop
-- 🎨 **Editorial Design** — Bebas Neue + Barlow fonts for a bold, modern look
-- 🍔 **Mobile Navigation** — collapsible dropdown menu
-- ✨ **Scroll Reveal Animations** — elements animate in as you scroll
-- 📬 **Contact Form** — with inline success message feedback
-- ⚡ **Zero Dependencies** — pure HTML/CSS/JS, no build step needed
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Hosting: GitHub (frontend) + local/server backend
+
+---
+
+## ⚙️ Features
+
+- 📱 Fully responsive modern UI
+- 📬 Contact form with database storage
+- 🔐 Admin login system
+- 📊 Admin dashboard to manage messages
+- 🗑️ Delete messages functionality
+- ✨ Clean business consulting design
+
+---
+
+## 🧠 Backend System
+
+- `contact.php` → saves form submissions to database
+- `admin.php` → displays all messages
+- `login.php` → simple admin authentication
+- `delete.php` → removes messages from DB
+- `config.php` → database connection
 
 ---
 
@@ -53,9 +76,16 @@ A modern, responsive, single-page website for a business consulting firm. Built 
 
 ```
 modern-business-landing-page/
-├── index.html                      # Main HTML structure
-├── style.css                       # All styles & responsive layout
-├── secript.js                      # Scroll reveal, dropdown & form logic
+/OptiCore
+├── index.php
+├── style.css
+├── secript.js
+├── contact.php
+├── admin.php
+├── login.php
+├── delete.php
+├── config.php
+└── database (MySQL: messages table)
 ├── screenshots/                    # Preview images
 │   ├── screenshot1-hero.png
 │   ├── screenshot2-about.png
@@ -127,6 +157,29 @@ To deploy your own fork:
 | Colors & typography | `style.css` | `:root` CSS variables |
 | Hero & About images | Root folder | Replace the `.jpeg` files |
 | Form submission logic | `secript.js` | `contactForm` event listener |
+
+---
+## 🔐 Admin Access
+
+- Username: AYAD  
+- Password: (hidden for security)
+
+---
+
+## 🚀 Setup Instructions
+
+1. Import database (MySQL)
+2. Edit `config.php` with your DB credentials
+3. Run project on XAMPP / localhost
+4. Open `index.php`
+
+---
+
+## ⚠️ Notes
+
+- Do NOT expose DB credentials on public hosting
+- Improve security (prepared statements recommended)
+- Add validation for production use
 
 ---
 
