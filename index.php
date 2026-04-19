@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Page 01</title>
+</head>
+
+<body>
+    
+    <nav id="one">
+  <div class="logo"><span>O</span>CORE</div>
+
+  <!-- DESKTOP MENU -->
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="#About">About</a>
+    <a href="#Services">Services</a>
+    <a href="#Process">Process</a>
+    <a href="#Clients">Clients</a>
+  </div>
+
+  <a href="#contact" class="nav-cta">Start A Project</a>
+
+  <!-- MOBIL MENU -->
+  <div class="mobile-menu">
+  <a id="dropdownBtn" href="#">☰ Menu</a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#About">About</a>
+    <a href="#Services">Services</a>
+    <a href="#Process">Process</a>
+    <a href="#Clients">Clients</a>
+    <a href="#contact" class="dropdown-cta">Start A Project</a>
+  </div>
+</div>
+</nav>
+    <section class="hero" id="hero">
+    <div class="image"><img src="téléchargement (11).jpeg"></div> 
+    <div class="content"> 
+    <div class="text">   
+        <h3 class="first-line">WE ARE</h3>
+        <h1 class="titel">OPTI<span>CORE</span></h1>
+        <p class="paragraph">OptiCore is a forward-thinking digital initiative focused on building clean, responsive, and user-centered web experiences. We combine creativity with technical precision to craft modern solutions that solve real problems and deliver measurable impact.</p>
+    </div>
+    <div class="action">
+        <button class="btn">SIGN UP</button>
+        <a href="tel:+1234567890" class="phone">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        </a> 
+    </div>
+    </div>  
+    
+    </section>
+    <!-- -----  ABOUT  -----  -->
+    
+    <script src="secript.js"></script>
+
+
+
+    <section class="about" id="about">
+
+  <div class="about-bg-word">ABOUT</div>
+
+  <div class="about-wrapper">
+
+    
+    <div class="about-text">
+      <p class="section-tag">Who We Are</p>
+      <h2 class="section-title">
+        Providing comprehensive business management consulting services tailored to the unique needs of our clients.
+      </h2>
+
+      <p class="section-desc">
+        OptiCore is a leading consultancy firm comprised of seasoned professionals
+        dedicated to empowering businesses to achieve their full potential. With a
+        diverse team of experts spanning various industries and disciplines, we bring
+        a wealth of experience and insight to every project we undertake.
+        </p>
+
+      <div class="about-stats">
+        <div class="tab"><span class="num">250+</span><span class="label">Projects</span></div>
+        <div class="tab"><span class="num">98%</span><span class="label">Satisfaction</span></div>
+        <div class="tab"><span class="num">15+</span><span class="label">Years Exp</span></div>
+        <div class="tab"><span class="num">40+</span><span class="label">Experts</span></div>
+      </div>
+
+      <a href="#contact" class="btn">Read More</a>
+    </div>
+
+   
+    <div class="about-image">
+      <img src="téléchargement (8).jpeg" alt="">
+    </div>
+   </div>
+</section> 
+<!--   ---- SERVRCE ----   -->
+   <section class="services" id="services">
+    <div class="section-header reveal">
+      <p class="section-tag">What We Do</p>
+      <h2 class="section-title big">OUR<br>SERVICES</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <span class="s-num">01</span>
+        <div class="s-icon">📊</div>
+        <h3>Business Strategy</h3>
+        <p>We craft data-driven strategies that align with your vision and drive sustainable growth across all business functions.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="s-num">02</span>
+        <div class="s-icon">🚀</div>
+        <h3>Digital Transformation</h3>
+        <p>Accelerate your digital journey with our end-to-end transformation services, from assessment to full implementation.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="s-num">03</span>
+        <div class="s-icon">💼</div>
+        <h3>Financial Advisory</h3>
+        <p>Expert financial guidance to optimize your capital structure, improve profitability, and mitigate risk exposure.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="s-num">04</span>
+        <div class="s-icon">🎯</div>
+        <h3>Market Expansion</h3>
+        <p>Unlock new markets and revenue streams with comprehensive market entry and expansion strategies.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="s-num">05</span>
+        <div class="s-icon">⚙️</div>
+        <h3>Operations Optimization</h3>
+        <p>Streamline your operations, eliminate inefficiencies, and build scalable processes that grow with your business.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="s-num">06</span>
+        <div class="s-icon">🌐</div>
+        <h3>Brand & Marketing</h3>
+        <p>Build a compelling brand identity and execute marketing strategies that resonate with your target audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--   ---- PROCESS ----   -->
+   <section class="process" id="process">
+    <div class="process-bg-word">PROCESS</div>
+    <div class="section-header reveal">
+      <p class="section-tag">How We Work</p>
+      <h2 class="section-title big">OUR<br>PROCESS</h2>
+    </div>
+    <div class="process-steps">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div class="step-line"></div>
+        <div class="step-body">
+          <h3>Discovery</h3>
+          <p>We deep-dive into your business, goals, and market landscape to fully understand your unique challenges and opportunities.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div class="step-line"></div>
+        <div class="step-body">
+          <h3>Strategy</h3>
+          <p>We develop a tailored roadmap backed by data, industry expertise, and innovative thinking aligned to your objectives.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div class="step-line"></div>
+        <div class="step-body">
+          <h3>Execution</h3>
+          <p>Our team works alongside yours to implement the plan with precision, agility, and continuous communication.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">04</div>
+        <div class="step-line"></div>
+        <div class="step-body">
+          <h3>Growth</h3>
+          <p>We measure results, iterate rapidly, and optimize to ensure long-term sustainable growth and maximum ROI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--   ---- CLIENTS ----   -->
+
+  <section class="clients" id="clients">
+    <div class="section-header reveal">
+      <p class="section-tag">Who Trusts Us</p>
+      <h2 class="section-title big">OUR<br>CLIENTS</h2>
+    </div>
+    <div class="clients-logos reveal">
+      <div class="client-logo">NexaCorp</div>
+      <div class="client-logo">Stratos</div>
+      <div class="client-logo">Veltrix</div>
+      <div class="client-logo">Orion&nbsp;Co.</div>
+      <div class="client-logo">Lumina</div>
+      <div class="client-logo">Praxis</div>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial-card reveal">
+        <p class="t-quote">"OptiCore transformed our operations in just 3 months. The results were beyond what we thought possible."</p>
+        <div class="t-author">
+          <div class="t-avatar">JM</div>
+          <div>
+            <strong>James Mitchell</strong>
+            <span>CEO, NexaCorp</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <p class="t-quote">"Their strategic insight helped us enter two new markets simultaneously with zero missteps. Exceptional team."</p>
+        <div class="t-author">
+          <div class="t-avatar">SR</div>
+          <div>
+            <strong>Sofia Reyes</strong>
+            <span>COO, Veltrix</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <p class="t-quote">"Professional, creative, and results-driven. OptiCore is the partner every business needs to scale."</p>
+        <div class="t-author">
+          <div class="t-avatar">AL</div>
+          <div>
+            <strong>Amir Levi</strong>
+            <span>Founder, Lumina</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--   ---- CONTACT / START A PROJECT ----   -->
+
+<section class="contact" id="contact">
+    <div class="contact-blob"></div>
+    <div class="contact-inner reveal">
+      <p class="section-tag">Get In Touch</p>
+      <h2 class="section-title big">START A<br><span>PROJECT</span></h2>
+      <p class="section-desc">
+        Ready to take your business to the next level? Tell us about your project
+        and we'll get back to you within 24 hours.
+      </p>
+      <form action="contact.php" method="POST" class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your Company">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option>Business Strategy</option>
+              <option>Digital Transformation</option>
+              <option>Financial Advisory</option>
+              <option>Market Expansion</option>
+              <option>Operations Optimization</option>
+              <option>Brand &amp; Marketing</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+        </div>
+        <button type="submit" class="btn submit-btn">Send Message →</button>
+      </form>
+      <div class="contact-success" id="contactSuccess">
+        ✅ Thank you! We'll be in touch within 24 hours.
+      </div>
+    </div>
+  </section>
+
+<!--   ---- FOOTER ----   -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><span>O</span>CORE</div>
+        <p>Empowering businesses to achieve their full potential through strategic consulting and innovative solutions.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-links-group">
+        <h4>Navigation</h4>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Start A Project</a>
+      </div>
+      <div class="footer-links-group">
+        <h4>Services</h4>
+        <a href="#services">Business Strategy</a>
+        <a href="#services">Digital Transformation</a>
+        <a href="#services">Financial Advisory</a>
+        <a href="#services">Market Expansion</a>
+        <a href="#services">Brand &amp; Marketing</a>
+      </div>
+      <div class="footer-links-group">
+        <h4>Contact</h4>
+        <a href="tel:+1234567890">+1 234 567 890</a>
+        <a href="mailto:hello@opticore.com">hello@opticore.com</a>
+        <p class="footer-addr">123 Business Ave,<br>New York, NY 10001</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 OptiCore. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
